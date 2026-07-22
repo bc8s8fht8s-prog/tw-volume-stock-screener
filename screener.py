@@ -1,5 +1,7 @@
 import pandas as pd
 
+from config import VOLUME_RATIO
+
 
 def check_strategy(day_df: pd.DataFrame, month_df: pd.DataFrame):
 
@@ -21,6 +23,10 @@ def check_strategy(day_df: pd.DataFrame, month_df: pd.DataFrame):
 
     osc_today = float(today["OSC"])
     osc_yesterday = float(yesterday["OSC"])
+
+    # 新增：成交量
+    volume_today = float(today["Volume"])
+    volume_yesterday = float(yesterday["Volume"])
 
     # ---------- 月K ----------
     # 前一個已完成月份
@@ -55,10 +61,17 @@ def check_strategy(day_df: pd.DataFrame, month_df: pd.DataFrame):
         # 0軸以下必須向0軸收斂
         condition3 = abs(month_osc) <= abs(month_osc_prev)
 
+    # 4. 成交量放大1.5倍
+    condition4 = (
+        volume_yesterday > 0
+        and volume_today >= volume_yesterday * VOLUME_RATIO
+    )
+
     passed = (
         condition1
         and condition2
         and condition3
+        and condition4
     )
 
     return {
@@ -78,4 +91,13 @@ def check_strategy(day_df: pd.DataFrame, month_df: pd.DataFrame):
         "condition1": condition1,
         "condition2": condition2,
         "condition3": condition3,
+        "condition4": condition4,
+
+        # 新增：方便前端顯示
+        "volume": int(volume_today),
+        "volume_prev": int(volume_yesterday),
+        "volume_ratio": round(
+            volume_today / volume_yesterday,
+            2
+        ) if volume_yesterday > 0 else 0,
     }

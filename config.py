@@ -15,6 +15,9 @@ MACD_FAST = 12
 MACD_SLOW = 26
 MACD_SIGNAL = 9
 
+# ===== Volume =====
+VOLUME_RATIO = 1.5
+
 # ===== Log =====
 ENABLE_LOG = True
 

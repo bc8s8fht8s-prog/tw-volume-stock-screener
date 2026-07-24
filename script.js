@@ -12,6 +12,9 @@ let filteredStocks = [];
 // 排序方式
 let sortMode = "code";
 
+// 成交量倍數篩選
+let volumeFilter = 0;
+
 function sortStocks() {
 
     if (sortMode === "code") {
@@ -31,6 +34,48 @@ function sortStocks() {
 
 }
 
+function applyFilters() {
+
+    const keyword = document
+        .getElementById("search")
+        .value
+        .trim()
+        .toLowerCase();
+
+    filteredStocks = allStocks.filter(stock => {
+
+        const matchKeyword =
+            keyword === "" ||
+            String(stock.code).toLowerCase().includes(keyword) ||
+            String(stock.name).toLowerCase().includes(keyword);
+
+        const ratio =
+            Number(stock.volume_ratio || 0);
+
+        const matchVolume =
+            volumeFilter === 0 ||
+            ratio >= volumeFilter;
+
+        return matchKeyword && matchVolume;
+
+    });
+
+    sortStocks();
+
+    renderPage(1);
+
+}
+
+function changeVolumeFilter() {
+
+    volumeFilter = Number(
+        document.getElementById("volumeFilter").value
+    );
+
+    applyFilters();
+
+}
+
 async function loadData() {
 
     const response = await fetch("data/result.json");
@@ -38,15 +83,12 @@ async function loadData() {
     data = await response.json();
 
     allStocks = data.stocks;
-    filteredStocks = [...allStocks];
-
-    sortStocks();
 
     document.getElementById("update_time").textContent = data.update_time;
     document.getElementById("scan_count").textContent = data.scan_count;
     document.getElementById("count").textContent = data.count + " 檔";
 
-    renderPage(1);
+    applyFilters();
 
 }
 
@@ -63,7 +105,6 @@ function renderPage(page) {
 
     const stocks = filteredStocks.slice(start, end);
 
-    // 沒有搜尋結果
     if (stocks.length === 0) {
 
         stockList.innerHTML = `
@@ -96,6 +137,11 @@ function renderPage(page) {
         const oscClass =
             stock.osc >= 0 ? "osc-up" : "osc-down";
 
+        const volumeRatio =
+            stock.volume_ratio != null
+                ? Number(stock.volume_ratio).toFixed(2)
+                : "--";
+
         stockList.innerHTML += `
 
             <div class="stock-card">
@@ -124,6 +170,11 @@ function renderPage(page) {
                     </span>
                 </p>
 
+                <p>
+                    📈 量比：
+                    <strong>${volumeRatio} 倍</strong>
+                </p>
+
             </div>
 
         `;
@@ -140,7 +191,6 @@ function renderPagination() {
 
     let html = "";
 
-    // 上一頁
     if (currentPage > 1) {
 
         html += `
@@ -187,7 +237,6 @@ function renderPagination() {
 
     }
 
-    // 下一頁
     if (currentPage < totalPages) {
 
         html += `
@@ -209,45 +258,16 @@ function renderPagination() {
 
 function searchStocks() {
 
-    const keyword = document
-        .getElementById("search")
-        .value
-        .trim()
-        .toLowerCase();
-
-    if (keyword === "") {
-
-        filteredStocks = [...allStocks];
-
-    } else {
-
-        filteredStocks = allStocks.filter(stock => {
-
-            const code = String(stock.code).toLowerCase();
-            const name = String(stock.name).toLowerCase();
-
-            return (
-                code.includes(keyword) ||
-                name.includes(keyword)
-            );
-
-        });
-
-    }
-
-    sortStocks();
-
-    renderPage(1);
+    applyFilters();
 
 }
 
 function changeSort() {
 
-    sortMode = document.getElementById("sortSelect").value;
+    sortMode =
+        document.getElementById("sortSelect").value;
 
-    sortStocks();
-
-    renderPage(1);
+    applyFilters();
 
 }
 

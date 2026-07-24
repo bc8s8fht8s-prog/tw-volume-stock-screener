@@ -53,11 +53,19 @@ def scan_market(limit=None):
                     "name": name,
                     "market": market,
                     "industry": industry,
+
                     "close": result["close"],
                     "high": result["high"],
+
                     "change_percent": result["change_percent"],
+
                     "osc": result["osc"],
                     "osc_prev": result["osc_prev"],
+
+                    # ===== 成交量資訊 =====
+                    "today_volume": result["volume"],
+                    "prev_volume": result["volume_prev"],
+                    "volume_ratio": result["volume_ratio"],
                 })
 
                 print("    ✅ 符合")
@@ -68,7 +76,8 @@ def scan_market(limit=None):
                     f"    ❌ 不符合 "
                     f"(C1={result['condition1']}, "
                     f"C2={result['condition2']}, "
-                    f"C3={result['condition3']})"
+                    f"C3={result['condition3']}, "
+                    f"C4={result['condition4']})"
                 )
 
             else:

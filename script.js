@@ -12,8 +12,8 @@ let filteredStocks = [];
 // 排序方式
 let sortMode = "code";
 
-// 成交量倍數篩選
-let volumeFilter = 0;
+// 成交量倍數篩選（預設 1.5 倍）
+let volumeFilter = 1.5;
 
 function sortStocks() {
 
@@ -53,7 +53,6 @@ function applyFilters() {
             Number(stock.volume_ratio || 0);
 
         const matchVolume =
-            volumeFilter === 0 ||
             ratio >= volumeFilter;
 
         return matchKeyword && matchVolume;
@@ -61,6 +60,10 @@ function applyFilters() {
     });
 
     sortStocks();
+
+    // 更新符合條件檔數
+    document.getElementById("count").textContent =
+        filteredStocks.length + " 檔";
 
     renderPage(1);
 
@@ -86,7 +89,6 @@ async function loadData() {
 
     document.getElementById("update_time").textContent = data.update_time;
     document.getElementById("scan_count").textContent = data.scan_count;
-    document.getElementById("count").textContent = data.count + " 檔";
 
     applyFilters();
 

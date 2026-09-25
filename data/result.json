@@ -1,7 +1,7 @@
 {
-    "update_time": "2026-09-24 15:32:57",
+    "update_time": "2026-09-25 15:34:10",
     "scan_count": 1925,
-    "count": 66,
+    "count": 62,
     "stocks": [
         {
             "code": "1295",
@@ -13,9 +13,9 @@
             "change_percent": 3.97,
             "osc": 0.2028,
             "osc_prev": 0.0564,
-            "today_volume": 105901,
+            "today_volume": 107031,
             "prev_volume": 29000,
-            "volume_ratio": 3.65
+            "volume_ratio": 3.69
         },
         {
             "code": "1440",
@@ -27,7 +27,7 @@
             "change_percent": 1.89,
             "osc": -0.0311,
             "osc_prev": -0.0525,
-            "today_volume": 5139620,
+            "today_volume": 5137846,
             "prev_volume": 1611685,
             "volume_ratio": 3.19
         },
@@ -41,7 +41,7 @@
             "change_percent": 5.38,
             "osc": 0.0337,
             "osc_prev": -0.0023,
-            "today_volume": 259083,
+            "today_volume": 258713,
             "prev_volume": 168000,
             "volume_ratio": 1.54
         },
@@ -55,9 +55,9 @@
             "change_percent": 0.85,
             "osc": 0.0576,
             "osc_prev": 0.0515,
-            "today_volume": 90621,
+            "today_volume": 91424,
             "prev_volume": 5001,
-            "volume_ratio": 18.12
+            "volume_ratio": 18.28
         },
         {
             "code": "1522",
@@ -69,9 +69,9 @@
             "change_percent": 1.14,
             "osc": 0.1212,
             "osc_prev": 0.0774,
-            "today_volume": 296081,
+            "today_volume": 293020,
             "prev_volume": 174840,
-            "volume_ratio": 1.69
+            "volume_ratio": 1.68
         },
         {
             "code": "1536",
@@ -83,9 +83,9 @@
             "change_percent": 1.51,
             "osc": -0.0355,
             "osc_prev": -0.1152,
-            "today_volume": 994762,
+            "today_volume": 990364,
             "prev_volume": 470514,
-            "volume_ratio": 2.11
+            "volume_ratio": 2.1
         },
         {
             "code": "1583",
@@ -97,9 +97,9 @@
             "change_percent": 1.19,
             "osc": -0.2255,
             "osc_prev": -0.2686,
-            "today_volume": 5504,
+            "today_volume": 5000,
             "prev_volume": 2000,
-            "volume_ratio": 2.75
+            "volume_ratio": 2.5
         },
         {
             "code": "1708",
@@ -111,9 +111,9 @@
             "change_percent": 4.39,
             "osc": 0.2369,
             "osc_prev": 0.1053,
-            "today_volume": 7324587,
+            "today_volume": 7268445,
             "prev_volume": 1134663,
-            "volume_ratio": 6.46
+            "volume_ratio": 6.41
         },
         {
             "code": "2020",
@@ -125,9 +125,9 @@
             "change_percent": 2.31,
             "osc": 0.0121,
             "osc_prev": -0.0307,
-            "today_volume": 737979,
+            "today_volume": 732106,
             "prev_volume": 213346,
-            "volume_ratio": 3.46
+            "volume_ratio": 3.43
         },
         {
             "code": "2025",
@@ -139,9 +139,9 @@
             "change_percent": 3.56,
             "osc": 0.0509,
             "osc_prev": 0.0077,
-            "today_volume": 1895317,
+            "today_volume": 1890704,
             "prev_volume": 321843,
-            "volume_ratio": 5.89
+            "volume_ratio": 5.87
         },
         {
             "code": "2031",
@@ -153,9 +153,9 @@
             "change_percent": 1.65,
             "osc": 0.0539,
             "osc_prev": -0.0209,
-            "today_volume": 816149,
+            "today_volume": 810400,
             "prev_volume": 380827,
-            "volume_ratio": 2.14
+            "volume_ratio": 2.13
         },
         {
             "code": "2032",
@@ -167,9 +167,9 @@
             "change_percent": 5.7,
             "osc": 0.1146,
             "osc_prev": 0.0347,
-            "today_volume": 3568576,
+            "today_volume": 3556975,
             "prev_volume": 624000,
-            "volume_ratio": 5.72
+            "volume_ratio": 5.7
         },
         {
             "code": "2034",
@@ -181,9 +181,9 @@
             "change_percent": 3.64,
             "osc": 0.1782,
             "osc_prev": 0.1221,
-            "today_volume": 8633129,
+            "today_volume": 8594797,
             "prev_volume": 3432312,
-            "volume_ratio": 2.52
+            "volume_ratio": 2.5
         },
         {
             "code": "2038",
@@ -195,9 +195,9 @@
             "change_percent": 3.72,
             "osc": 0.0256,
             "osc_prev": -0.0121,
-            "today_volume": 608388,
+            "today_volume": 601840,
             "prev_volume": 220200,
-            "volume_ratio": 2.76
+            "volume_ratio": 2.73
         },
         {
             "code": "2109",
@@ -209,9 +209,9 @@
             "change_percent": 1.01,
             "osc": 0.0082,
             "osc_prev": -0.0057,
-            "today_volume": 391980,
+            "today_volume": 389041,
             "prev_volume": 219021,
-            "volume_ratio": 1.79
+            "volume_ratio": 1.78
         },
         {
             "code": "2424",
@@ -228,20 +228,6 @@
             "volume_ratio": 1.78
         },
         {
-            "code": "2430",
-            "name": "燦坤",
-            "market": "上市",
-            "industry": "電子通路業",
-            "close": 18.25,
-            "high": 18.1,
-            "change_percent": 0.83,
-            "osc": 0.0171,
-            "osc_prev": 0.012,
-            "today_volume": 50024,
-            "prev_volume": 33200,
-            "volume_ratio": 1.51
-        },
-        {
             "code": "2461",
             "name": "光群雷",
             "market": "上市",
@@ -251,7 +237,7 @@
             "change_percent": 1.42,
             "osc": -0.0654,
             "osc_prev": -0.0956,
-            "today_volume": 291337,
+            "today_volume": 291007,
             "prev_volume": 184000,
             "volume_ratio": 1.58
         },
@@ -265,9 +251,9 @@
             "change_percent": 4.39,
             "osc": 0.0767,
             "osc_prev": 0.0404,
-            "today_volume": 859746,
+            "today_volume": 861170,
             "prev_volume": 141013,
-            "volume_ratio": 6.1
+            "volume_ratio": 6.11
         },
         {
             "code": "2596",
@@ -279,9 +265,9 @@
             "change_percent": 1.29,
             "osc": -0.1762,
             "osc_prev": -0.2127,
-            "today_volume": 112404,
+            "today_volume": 111000,
             "prev_volume": 63003,
-            "volume_ratio": 1.78
+            "volume_ratio": 1.76
         },
         {
             "code": "2636",
@@ -293,9 +279,9 @@
             "change_percent": 1.55,
             "osc": 0.0753,
             "osc_prev": 0.0087,
-            "today_volume": 1003349,
+            "today_volume": 989816,
             "prev_volume": 236024,
-            "volume_ratio": 4.25
+            "volume_ratio": 4.19
         },
         {
             "code": "2727",
@@ -307,9 +293,9 @@
             "change_percent": 0.87,
             "osc": 0.2192,
             "osc_prev": -0.0788,
-            "today_volume": 526035,
+            "today_volume": 510400,
             "prev_volume": 170220,
-            "volume_ratio": 3.09
+            "volume_ratio": 3.0
         },
         {
             "code": "3022",
@@ -321,9 +307,9 @@
             "change_percent": 2.65,
             "osc": 0.7249,
             "osc_prev": 0.5849,
-            "today_volume": 1538678,
+            "today_volume": 1527005,
             "prev_volume": 835300,
-            "volume_ratio": 1.84
+            "volume_ratio": 1.83
         },
         {
             "code": "3026",
@@ -335,9 +321,9 @@
             "change_percent": 5.47,
             "osc": 2.8765,
             "osc_prev": 1.7243,
-            "today_volume": 13165005,
+            "today_volume": 12816264,
             "prev_volume": 6043556,
-            "volume_ratio": 2.18
+            "volume_ratio": 2.12
         },
         {
             "code": "3147",
@@ -349,9 +335,9 @@
             "change_percent": 3.62,
             "osc": 2.1283,
             "osc_prev": 1.8667,
-            "today_volume": 1265848,
+            "today_volume": 1236430,
             "prev_volume": 236857,
-            "volume_ratio": 5.34
+            "volume_ratio": 5.22
         },
         {
             "code": "3164",
@@ -363,9 +349,9 @@
             "change_percent": 1.56,
             "osc": 0.0558,
             "osc_prev": 0.0378,
-            "today_volume": 27238,
+            "today_volume": 26001,
             "prev_volume": 17328,
-            "volume_ratio": 1.57
+            "volume_ratio": 1.5
         },
         {
             "code": "3218",
@@ -377,9 +363,9 @@
             "change_percent": 0.75,
             "osc": -0.1939,
             "osc_prev": -0.3142,
-            "today_volume": 358844,
+            "today_volume": 354030,
             "prev_volume": 111130,
-            "volume_ratio": 3.23
+            "volume_ratio": 3.19
         },
         {
             "code": "3234",
@@ -391,9 +377,9 @@
             "change_percent": 4.71,
             "osc": -4.074,
             "osc_prev": -4.6626,
-            "today_volume": 4447414,
+            "today_volume": 4265264,
             "prev_volume": 1406163,
-            "volume_ratio": 3.16
+            "volume_ratio": 3.03
         },
         {
             "code": "3324",
@@ -405,9 +391,9 @@
             "change_percent": 7.21,
             "osc": 21.7943,
             "osc_prev": 14.2743,
-            "today_volume": 6441511,
+            "today_volume": 6222979,
             "prev_volume": 3994081,
-            "volume_ratio": 1.61
+            "volume_ratio": 1.56
         },
         {
             "code": "3339",
@@ -419,9 +405,9 @@
             "change_percent": 0.53,
             "osc": 0.2069,
             "osc_prev": 0.2014,
-            "today_volume": 5999763,
+            "today_volume": 5977375,
             "prev_volume": 2059403,
-            "volume_ratio": 2.91
+            "volume_ratio": 2.9
         },
         {
             "code": "3455",
@@ -433,9 +419,9 @@
             "change_percent": 5.74,
             "osc": 0.7481,
             "osc_prev": 0.1357,
-            "today_volume": 3595566,
+            "today_volume": 3505750,
             "prev_volume": 637340,
-            "volume_ratio": 5.64
+            "volume_ratio": 5.5
         },
         {
             "code": "3498",
@@ -447,23 +433,9 @@
             "change_percent": 7.54,
             "osc": -0.3895,
             "osc_prev": -1.4678,
-            "today_volume": 3195963,
+            "today_volume": 3167486,
             "prev_volume": 2085534,
-            "volume_ratio": 1.53
-        },
-        {
-            "code": "3564",
-            "name": "其陽",
-            "market": "上櫃",
-            "industry": "通信網路業",
-            "close": 49.45,
-            "high": 49.4,
-            "change_percent": 2.81,
-            "osc": 0.0889,
-            "osc_prev": 0.0745,
-            "today_volume": 335283,
-            "prev_volume": 222061,
-            "volume_ratio": 1.51
+            "volume_ratio": 1.52
         },
         {
             "code": "3653",
@@ -475,9 +447,9 @@
             "change_percent": 7.96,
             "osc": 52.905,
             "osc_prev": -9.7715,
-            "today_volume": 2752264,
+            "today_volume": 2665225,
             "prev_volume": 1395094,
-            "volume_ratio": 1.97
+            "volume_ratio": 1.91
         },
         {
             "code": "3663",
@@ -489,9 +461,9 @@
             "change_percent": 1.32,
             "osc": 0.312,
             "osc_prev": 0.2796,
-            "today_volume": 339803,
+            "today_volume": 337000,
             "prev_volume": 212000,
-            "volume_ratio": 1.6
+            "volume_ratio": 1.59
         },
         {
             "code": "3672",
@@ -503,9 +475,9 @@
             "change_percent": 5.44,
             "osc": 0.071,
             "osc_prev": 0.0278,
-            "today_volume": 178450,
+            "today_volume": 178001,
             "prev_volume": 13000,
-            "volume_ratio": 13.73
+            "volume_ratio": 13.69
         },
         {
             "code": "4138",
@@ -517,9 +489,9 @@
             "change_percent": 0.72,
             "osc": 0.2354,
             "osc_prev": 0.185,
-            "today_volume": 60607,
+            "today_volume": 59010,
             "prev_volume": 38010,
-            "volume_ratio": 1.59
+            "volume_ratio": 1.55
         },
         {
             "code": "4566",
@@ -531,9 +503,9 @@
             "change_percent": 9.91,
             "osc": 0.995,
             "osc_prev": 0.4715,
-            "today_volume": 7822118,
+            "today_volume": 7739345,
             "prev_volume": 1470530,
-            "volume_ratio": 5.32
+            "volume_ratio": 5.26
         },
         {
             "code": "4569",
@@ -545,9 +517,9 @@
             "change_percent": 0.65,
             "osc": -0.8756,
             "osc_prev": -1.1169,
-            "today_volume": 28158,
+            "today_volume": 28000,
             "prev_volume": 12000,
-            "volume_ratio": 2.35
+            "volume_ratio": 2.33
         },
         {
             "code": "5310",
@@ -559,23 +531,9 @@
             "change_percent": 9.82,
             "osc": 0.2865,
             "osc_prev": 0.1331,
-            "today_volume": 297295,
+            "today_volume": 295000,
             "prev_volume": 49000,
-            "volume_ratio": 6.07
-        },
-        {
-            "code": "5432",
-            "name": "新門",
-            "market": "上櫃",
-            "industry": "綠能環保",
-            "close": 167.5,
-            "high": 166.5,
-            "change_percent": 2.45,
-            "osc": 0.5697,
-            "osc_prev": -0.0147,
-            "today_volume": 376681,
-            "prev_volume": 250120,
-            "volume_ratio": 1.51
+            "volume_ratio": 6.02
         },
         {
             "code": "6205",
@@ -587,9 +545,9 @@
             "change_percent": 2.22,
             "osc": 1.0119,
             "osc_prev": 0.6892,
-            "today_volume": 11457973,
+            "today_volume": 11414686,
             "prev_volume": 4184071,
-            "volume_ratio": 2.74
+            "volume_ratio": 2.73
         },
         {
             "code": "6225",
@@ -601,9 +559,9 @@
             "change_percent": 9.09,
             "osc": -3.2306,
             "osc_prev": -3.273,
-            "today_volume": 2838009,
+            "today_volume": 2809596,
             "prev_volume": 170735,
-            "volume_ratio": 16.62
+            "volume_ratio": 16.46
         },
         {
             "code": "6228",
@@ -615,9 +573,9 @@
             "change_percent": 10.0,
             "osc": 0.0907,
             "osc_prev": -0.0292,
-            "today_volume": 19992,
+            "today_volume": 19000,
             "prev_volume": 8000,
-            "volume_ratio": 2.5
+            "volume_ratio": 2.38
         },
         {
             "code": "6438",
@@ -629,9 +587,9 @@
             "change_percent": 2.94,
             "osc": 0.6048,
             "osc_prev": 0.1637,
-            "today_volume": 1115733,
+            "today_volume": 1097764,
             "prev_volume": 139006,
-            "volume_ratio": 8.03
+            "volume_ratio": 7.9
         },
         {
             "code": "6506",
@@ -643,9 +601,9 @@
             "change_percent": 2.48,
             "osc": 0.0153,
             "osc_prev": -0.0156,
-            "today_volume": 129806,
+            "today_volume": 128716,
             "prev_volume": 20000,
-            "volume_ratio": 6.49
+            "volume_ratio": 6.44
         },
         {
             "code": "6512",
@@ -657,9 +615,9 @@
             "change_percent": 0.5,
             "osc": -0.0388,
             "osc_prev": -0.0413,
-            "today_volume": 8071,
+            "today_volume": 7000,
             "prev_volume": 4139,
-            "volume_ratio": 1.95
+            "volume_ratio": 1.69
         },
         {
             "code": "6533",
@@ -671,9 +629,9 @@
             "change_percent": 9.96,
             "osc": 1.6186,
             "osc_prev": 0.1929,
-            "today_volume": 6686846,
+            "today_volume": 6486551,
             "prev_volume": 1828387,
-            "volume_ratio": 3.66
+            "volume_ratio": 3.55
         },
         {
             "code": "6569",
@@ -685,23 +643,9 @@
             "change_percent": 0.33,
             "osc": 0.4583,
             "osc_prev": 0.4289,
-            "today_volume": 23548,
+            "today_volume": 22000,
             "prev_volume": 14000,
-            "volume_ratio": 1.68
-        },
-        {
-            "code": "6615",
-            "name": "慧智",
-            "market": "上櫃",
-            "industry": "生技醫療業",
-            "close": 34.0,
-            "high": 33.7,
-            "change_percent": 0.89,
-            "osc": 0.0114,
-            "osc_prev": -0.0119,
-            "today_volume": 11000,
-            "prev_volume": 1000,
-            "volume_ratio": 11.0
+            "volume_ratio": 1.57
         },
         {
             "code": "6672",
@@ -713,9 +657,9 @@
             "change_percent": 9.93,
             "osc": 1.9746,
             "osc_prev": 0.119,
-            "today_volume": 15279336,
+            "today_volume": 14972487,
             "prev_volume": 3201200,
-            "volume_ratio": 4.77
+            "volume_ratio": 4.68
         },
         {
             "code": "6727",
@@ -727,9 +671,9 @@
             "change_percent": 8.6,
             "osc": -6.6785,
             "osc_prev": -9.6168,
-            "today_volume": 1572642,
+            "today_volume": 1529906,
             "prev_volume": 780579,
-            "volume_ratio": 2.01
+            "volume_ratio": 1.96
         },
         {
             "code": "6922",
@@ -741,9 +685,9 @@
             "change_percent": 3.67,
             "osc": 1.5807,
             "osc_prev": 0.7807,
-            "today_volume": 268777,
+            "today_volume": 259559,
             "prev_volume": 94149,
-            "volume_ratio": 2.85
+            "volume_ratio": 2.76
         },
         {
             "code": "6925",
@@ -755,9 +699,9 @@
             "change_percent": 10.0,
             "osc": 1.4745,
             "osc_prev": 1.0414,
-            "today_volume": 1450163,
+            "today_volume": 1439959,
             "prev_volume": 452101,
-            "volume_ratio": 3.21
+            "volume_ratio": 3.19
         },
         {
             "code": "6933",
@@ -769,9 +713,9 @@
             "change_percent": 10.0,
             "osc": 0.5972,
             "osc_prev": -2.1919,
-            "today_volume": 6075477,
+            "today_volume": 5990790,
             "prev_volume": 1281218,
-            "volume_ratio": 4.74
+            "volume_ratio": 4.68
         },
         {
             "code": "7547",
@@ -783,9 +727,9 @@
             "change_percent": 10.0,
             "osc": 0.9109,
             "osc_prev": 0.4591,
-            "today_volume": 272247,
+            "today_volume": 269000,
             "prev_volume": 99030,
-            "volume_ratio": 2.75
+            "volume_ratio": 2.72
         },
         {
             "code": "7642",
@@ -797,9 +741,9 @@
             "change_percent": 3.21,
             "osc": -0.3833,
             "osc_prev": -0.6155,
-            "today_volume": 16236,
+            "today_volume": 16000,
             "prev_volume": 9000,
-            "volume_ratio": 1.8
+            "volume_ratio": 1.78
         },
         {
             "code": "7716",
@@ -825,9 +769,9 @@
             "change_percent": 2.02,
             "osc": 0.2832,
             "osc_prev": 0.1698,
-            "today_volume": 68511,
+            "today_volume": 68000,
             "prev_volume": 26000,
-            "volume_ratio": 2.64
+            "volume_ratio": 2.62
         },
         {
             "code": "7811",
@@ -839,9 +783,9 @@
             "change_percent": 0.68,
             "osc": 0.0214,
             "osc_prev": -0.0158,
-            "today_volume": 11014,
+            "today_volume": 11000,
             "prev_volume": 2000,
-            "volume_ratio": 5.51
+            "volume_ratio": 5.5
         },
         {
             "code": "8050",
@@ -853,9 +797,9 @@
             "change_percent": 3.2,
             "osc": 0.5616,
             "osc_prev": 0.4743,
-            "today_volume": 2310243,
+            "today_volume": 2283720,
             "prev_volume": 951163,
-            "volume_ratio": 2.43
+            "volume_ratio": 2.4
         },
         {
             "code": "8072",
@@ -867,9 +811,9 @@
             "change_percent": 4.42,
             "osc": 0.2106,
             "osc_prev": 0.16,
-            "today_volume": 738185,
+            "today_volume": 736050,
             "prev_volume": 70100,
-            "volume_ratio": 10.53
+            "volume_ratio": 10.5
         },
         {
             "code": "8349",
@@ -881,9 +825,9 @@
             "change_percent": 2.99,
             "osc": 0.0979,
             "osc_prev": -0.0047,
-            "today_volume": 230594,
+            "today_volume": 228300,
             "prev_volume": 112580,
-            "volume_ratio": 2.05
+            "volume_ratio": 2.03
         },
         {
             "code": "8358",
@@ -895,9 +839,9 @@
             "change_percent": 2.82,
             "osc": -3.3979,
             "osc_prev": -4.5556,
-            "today_volume": 3196606,
+            "today_volume": 2995909,
             "prev_volume": 1910983,
-            "volume_ratio": 1.67
+            "volume_ratio": 1.57
         },
         {
             "code": "8415",
@@ -909,9 +853,9 @@
             "change_percent": 0.85,
             "osc": -0.0505,
             "osc_prev": -0.1201,
-            "today_volume": 196652,
+            "today_volume": 195000,
             "prev_volume": 112000,
-            "volume_ratio": 1.76
+            "volume_ratio": 1.74
         },
         {
             "code": "9945",
@@ -923,7 +867,7 @@
             "change_percent": 1.18,
             "osc": 0.1367,
             "osc_prev": 0.0983,
-            "today_volume": 13118371,
+            "today_volume": 13043362,
             "prev_volume": 8549875,
             "volume_ratio": 1.53
         }

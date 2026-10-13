@@ -1,5 +1,5 @@
 {
-    "update_time": "2026-10-13 15:38:45",
+    "update_time": "2026-10-13 20:51:57",
     "scan_count": 1925,
     "count": 174,
     "stocks": [
@@ -853,9 +853,9 @@
             "change_percent": 8.97,
             "osc": -0.3663,
             "osc_prev": -1.0965,
-            "today_volume": 33161787,
+            "today_volume": 34707787,
             "prev_volume": 7814242,
-            "volume_ratio": 4.24
+            "volume_ratio": 4.44
         },
         {
             "code": "2617",
